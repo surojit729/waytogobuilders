@@ -71,15 +71,35 @@ jQuery(document).ready(function () {
         loop: true,
         spaceBetween: 50,
         slideToClickedSlide: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
         pagination: {
             el: ".service-slider-outer .swiper-pagination",
             clickable: true,
+        },
+        breakpoints: {
+            318: {
+                slidesPerView: 1.5,
+                spaceBetween: 20,
+                // centeredSlides: false,
+            },
+            992: {
+                slidesPerView: 2.5,
+            },
         },
     });
     new Swiper('.testimonial-slider-outer .swiper', {
         slidesPerView: 1,
         loop: false,
         spaceBetween: 0,
+        // autoplay: {
+        //     delay: 4000,
+        //     disableOnInteraction: false,
+        //     pauseOnMouseEnter: true,
+        // },
         navigation: {
             nextEl: ".testimonial-slider-outer .swiper-button-next",
             prevEl: ".testimonial-slider-outer .swiper-button-prev",
