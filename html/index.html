@@ -154,10 +154,9 @@
 		<!-- banner-area -->
 		<section class="banner-wrapper">
 			<div class="banner-video">
-				<!-- <img src="assets/images/home-banner-video-poster.jpg" alt=""> -->
-				<video loop mute autoplay poster="assets/images/home-banner-video-poster.jpg">
-					<source src="assets/images/beverly-hills-palm-tree-lined-street-2.webm" type="video/webm">
-					<source src="assets/images/beverly-hills-palm-tree-lined-street-2.mp4" type="video/mp4">
+				<video id="banner-video" poster="assets/images/home-banner-video-poster.jpg" preload="none" autoplay
+					loop muted playsinline>
+					<source src="assets/videos/home-banner-video.mp4" type="video/mp4">
 				</video>
 			</div>
 			<div class="container">
@@ -458,10 +457,8 @@
 			</section>
 			<!-- our-designs -->
 			<!-- work-with-us -->
-			<section class="work-with-us-wrapper">
-				<div class="work-with-us-video-holder">
-					<img src="assets/images/work-with-us-banner.jpg" alt="">
-				</div>
+			<section class="work-with-us-wrapper section-padding bg-image-section"
+				style="background-image: url(assets/images/work-with-us-banner.jpg);">
 				<div class="container">
 					<div class="section-heading text-center">
 						<h2>Work With Us</h2>
@@ -620,7 +617,10 @@
 				<div class="portfolio-list-outer">
 					<div class="item">
 						<div class="media">
-							<img src="assets/images/portfolio-video-poster-pic-01.jpg" alt="">
+							<video id="banner-video" poster="assets/images/portfolio-video-poster-pic-01.jpg"
+								preload="none" autoplay loop muted playsinline>
+								<source src="assets/videos/project-arroyo-video.mp4" type="video/mp4">
+							</video>
 						</div>
 						<div class="data text-center">
 							<h3>Arroyo View</h3>
@@ -628,7 +628,10 @@
 					</div>
 					<div class="item">
 						<div class="media">
-							<img src="assets/images/portfolio-video-poster-pic-02.jpg" alt="">
+							<video id="banner-video" poster="assets/images/portfolio-video-poster-pic-02.jpg"
+								preload="none" autoplay loop muted playsinline>
+								<source src="assets/videos/project-Oakdale-video.mp4" type="video/mp4">
+							</video>
 						</div>
 						<div class="data text-center">
 							<h3>Oakdale ave</h3>
@@ -636,7 +639,10 @@
 					</div>
 					<div class="item">
 						<div class="media">
-							<img src="assets/images/portfolio-video-poster-pic-03.jpg" alt="">
+							<video id="banner-video" poster="assets/images/portfolio-video-poster-pic-03.jpg"
+								preload="none" autoplay loop muted playsinline>
+								<source src="assets/videos/project-Daryn-video.mp4" type="video/mp4">
+							</video>
 						</div>
 						<div class="data text-center">
 							<h3>Daryn Dr</h3>
@@ -783,30 +789,38 @@
 													</div>
 												</div>
 											</div>
-											<div class="data-right">
-												<div class="review-others-list-outer d-flex">
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/yelp-logo-white.png" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testimonial-card">
+										<div class="review-data-outer d-flex">
+											<div class="author-info">
+												<img src="assets/images/client-thumb.png" alt="">
+											</div>
+											<div class="review-data">
+												<p> We had the chance to work with Josef from Way to go Builders. He was
+													very nice and professional. He listened to what we want and helped
+													us transform the backyard. He explained to us in details about the
+													project and provided the clear breakdown of the cost. He also
+													addressed all our questions and concerned during the project. His
+													team was very good and efficient. They were able to finish the
+													project earlier than the promised timeline. They paid attention to
+													detail and cleaned the area after the job was done. We are very
+													happy with the work and definitely recommend Josef and his team.</p>
+											</div>
+										</div>
+										<div class="review-meta-data-outer d-flex align-items-center">
+											<div class="data-left">
+												<div class="review-platform">
+													<div class="data-top d-flex">
+														<div class="media">
+															<img src="assets/images/yelp-logo.png" alt="">
 														</div>
 														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/houzz-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/google-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
+															<p>Matthew Hyner</p>
+															<span>October 25, 2023
+															</span>
 														</div>
 													</div>
 												</div>
@@ -847,98 +861,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="data-right">
-												<div class="review-others-list-outer d-flex">
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/yelp-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/houzz-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/google-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="testimonial-card">
-										<div class="review-data-outer d-flex">
-											<div class="author-info">
-												<img src="assets/images/client-thumb.png" alt="">
-											</div>
-											<div class="review-data">
-												<p> We had the chance to work with Josef from Way to go Builders. He was
-													very nice and professional. He listened to what we want and helped
-													us transform the backyard. He explained to us in details about the
-													project and provided the clear breakdown of the cost. He also
-													addressed all our questions and concerned during the project. His
-													team was very good and efficient. They were able to finish the
-													project earlier than the promised timeline. They paid attention to
-													detail and cleaned the area after the job was done. We are very
-													happy with the work and definitely recommend Josef and his team.</p>
-											</div>
-										</div>
-										<div class="review-meta-data-outer d-flex align-items-center">
-											<div class="data-left">
-												<div class="review-platform">
-													<div class="data-top d-flex">
-														<div class="media">
-															<img src="assets/images/yelp-logo.png" alt="">
-														</div>
-														<div class="data">
-															<p>Matthew Hyner</p>
-															<span>October 25, 2023
-															</span>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="data-right">
-												<div class="review-others-list-outer d-flex">
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/yelp-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/houzz-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-													<div class="item">
-														<div class="icon">
-															<img src="assets/images/google-logo-white.png" alt="">
-														</div>
-														<div class="data">
-															<p>5 Star<span>Reviews</span></p>
-														</div>
-													</div>
-												</div>
-											</div>
+
 										</div>
 									</div>
 								</div>
@@ -950,6 +873,42 @@
 								</div>
 								<div class="swiper-button-prev">
 									<i class="las la-arrow-left"></i>
+								</div>
+							</div>
+						</div>
+						<div class="all-review-network-outer">
+							<div class="data-right">
+								<div class="review-others-list-outer d-flex">
+									<div class="item">
+										<a href="#" target="_blank">
+											<div class="icon">
+												<img src="assets/images/yelp-logo-white.png" alt="">
+											</div>
+											<div class="data">
+												<p>5 Star<span>Reviews</span></p>
+											</div>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#" target="_blank">
+											<div class="icon">
+												<img src="assets/images/houzz-logo-white.png" alt="">
+											</div>
+											<div class="data">
+												<p>5 Star<span>Reviews</span></p>
+											</div>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#" target="_blank">
+											<div class="icon">
+												<img src="assets/images/google-logo-white.png" alt="">
+											</div>
+											<div class="data">
+												<p>5 Star<span>Reviews</span></p>
+											</div>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1034,7 +993,10 @@
 			<!-- contact-form -->
 			<section class="schedule-contact-form-wrapper">
 				<div class="video-holder">
-					<img src="assets/images/schedule-form-video-poster.jpg" alt="">
+					<video id="banner-video" poster="assets/images/schedule-form-video-poster.jpg" preload="none"
+						autoplay loop muted playsinline>
+						<source src="assets/videos/schedule-consultation-video.mp4" type="video/mp4">
+					</video>
 				</div>
 				<div class="container">
 					<div class="section-heading text-center">

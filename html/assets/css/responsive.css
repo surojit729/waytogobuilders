@@ -1,4 +1,9 @@
 /* Responsive */
+@media (min-width: 1800px) {
+	.banner-content-outer h1 {
+		font-size: 102px;
+	}
+}
 @media (max-width: 1199px) {
 	.banner-content-outer h1 {
 		font-size: 70px;
@@ -285,6 +290,20 @@
 	.featured-project-card img {
 		width: 100%;
 	}
+	.our-work-process-wrapper .tabCumAccordian .tabNav ul li {
+		padding-left: 75px;
+	}
+	.our-work-process-wrapper .tabCumAccordian .tabNav ul li::before {
+		width: 55px;
+		height: 55px;
+		font-size: 25px;
+	}
+	.our-work-process-wrapper .tabCumAccordian .tabNav ul {
+		padding-right: 10px;
+	}
+	.our-work-process-wrapper .tabCumAccordian .tabNav ul li::after {
+		left: 28px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -313,9 +332,7 @@
 	.ourSolution .tabCumAccordian .tabNav {
 		display: none;
 	}
-	.tabCumAccordian .tabTitleHead {
-		display: block;
-	}
+
 	.banner-content-outer p {
 		font-size: 20px;
 	}
@@ -367,9 +384,7 @@
 	.our-portfolio-wrapper .section-heading {
 		margin: 40px auto;
 	}
-	.our-work-process-wrapper {
-		display: none;
-	}
+
 	.testimonial-slider-outer .testimonial-card .review-data-outer {
 		flex-direction: column;
 	}
@@ -401,7 +416,7 @@
 	}
 
 	.testimonial-slider-outer .swiper-nav {
-		margin-top: 15px;
+		margin-top: 0;
 		display: flex;
 		justify-content: center;
 		gap: 15px;
@@ -427,5 +442,75 @@
 	.footer-bottom-row .holder {
 		flex-direction: column;
 		gap: 15px;
+	}
+	.schedule-contact-form-wrapper .video-holder {
+		height: 900px;
+	}
+	.portfolio-list-outer .item .data h3 {
+		font-size: 25px;
+	}
+	.all-review-network-outer {
+		margin-top: 50px;
+	}
+	.our-designs-wrapper
+		.our-designs-content-outer
+		.accordion-item
+		.accordion-header
+		.accordion-button {
+		padding: 12px 0 12px 40px;
+		font-size: 21px;
+	}
+	.tabInner .title-outer {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.tabInner .title-outer h3 {
+		font-family: var(--playfair);
+		font-size: 23px;
+		font-weight: 400;
+		line-height: 1.4;
+		margin-bottom: 5px;
+		color: #343332;
+	}
+	.tabPan {
+		margin-bottom: 30px;
+		position: relative;
+		padding-left: 55px;
+		cursor: pointer;
+		counter-increment: step-counter;
+	}
+	.tabPan:not(:first-child)::after {
+		content: "";
+		position: absolute;
+		bottom: 100%;
+		left: 21px;
+		height: 100%;
+		border-left: 1px solid #e8e8e8;
+	}
+	.tabInner::before {
+		content: counter(step-counter);
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		background-color: #e6e6e6;
+		font-size: 20px;
+		line-height: 1;
+		z-index: 1;
+		transition: all 0.4s ease-in-out;
+	}
+	.tabNav {
+		display: none;
+	}
+	.our-work-process-wrapper .tabCumAccordian > div {
+		width: 100%;
+	}
+	.tabInner {
+		display: block !important;
 	}
 }
