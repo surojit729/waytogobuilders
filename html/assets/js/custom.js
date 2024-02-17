@@ -82,9 +82,8 @@ jQuery(document).ready(function () {
         },
         breakpoints: {
             318: {
-                slidesPerView: 1.5,
+                slidesPerView: 1.3,
                 spaceBetween: 20,
-                // centeredSlides: false,
             },
             992: {
                 slidesPerView: 2.5,
@@ -95,11 +94,11 @@ jQuery(document).ready(function () {
         slidesPerView: 1,
         loop: false,
         spaceBetween: 0,
-        // autoplay: {
-        //     delay: 4000,
-        //     disableOnInteraction: false,
-        //     pauseOnMouseEnter: true,
-        // },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
         navigation: {
             nextEl: ".testimonial-slider-outer .swiper-button-next",
             prevEl: ".testimonial-slider-outer .swiper-button-prev",

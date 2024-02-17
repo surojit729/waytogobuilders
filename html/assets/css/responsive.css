@@ -304,6 +304,29 @@
 	.our-work-process-wrapper .tabCumAccordian .tabNav ul li::after {
 		left: 28px;
 	}
+	.our-passion-wrapper .what-ww-do-pic {
+		position: static;
+		width: 100%;
+		padding: 0 15px;
+	}
+	.our-passion-wrapper {
+		padding-top: 60px;
+	}
+	.our-passion-wrapper .section-heading {
+		max-width: 100%;
+		margin-left: auto;
+		padding: 0;
+		margin-top: 30px;
+	}
+	.backyard-undertake-pic {
+		margin-bottom: 30px;
+	}
+	.backyard-undertake-pic img {
+		width: 100%;
+	}
+	.backyard-undertake-list-outer .item {
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 767px) {
@@ -509,8 +532,33 @@
 	}
 	.our-work-process-wrapper .tabCumAccordian > div {
 		width: 100%;
+		padding: 0;
 	}
 	.tabInner {
 		display: block !important;
+	}
+	.project-details-gallery-wrapper
+		[class*="col-"]:nth-last-child(2)
+		.gallery-item,
+	.project-details-gallery-wrapper [class*="col-"]:last-child .gallery-item,
+	.project-details-gallery-wrapper .gallery-item {
+		height: 350px;
+		min-height: 350px;
+	}
+	.featured-video-list-outer .video-media {
+		height: 350px;
+		min-height: 350px;
+	}
+	.our-passion-wrapper .section-heading h3 {
+		font-size: 26px;
+	}
+	.backyard-undertake-list-outer .item {
+		margin-bottom: 25px;
+	}
+	.backyard-undertake-list-outer .item h3 {
+		font-size: 24px;
+	}
+	.our-work-process-wrapper .tabCumAccordian {
+		margin: 0;
 	}
 }
