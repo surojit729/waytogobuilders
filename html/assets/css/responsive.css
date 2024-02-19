@@ -561,4 +561,47 @@
 	.our-work-process-wrapper .tabCumAccordian {
 		margin: 0;
 	}
+	.about-banner-wrapper {
+		padding: 150px 0 80px;
+	}
+	.way-to-go-work-wrapper .way-to-go-work-list-outer {
+		padding-bottom: 50px;
+	}
+	.way-to-go-work-wrapper .way-to-go-work-list-outer .item h3 {
+		font-size: 22px;
+		margin-top: 15px;
+		padding-left: 24px;
+	}
+	.way-to-go-work-wrapper .way-to-go-work-list-outer .item {
+		width: 100%;
+		padding: 15px;
+		padding-left: 0;
+		border-right: 0;
+	}
+	.way-to-go-work-wrapper .way-to-go-work-list-outer .item::before {
+		top: 35px;
+		left: 0;
+		right: auto;
+	}
+	.way-to-go-work-wrapper
+		.way-to-go-work-list-outer
+		.item:nth-child(1)::before,
+	.way-to-go-work-wrapper
+		.way-to-go-work-list-outer
+		.item:nth-child(2)::before {
+		top: 20px;
+	}
+	.our-experience-wrapper .schedule-free-consultation-data h2 {
+		font-size: 28px;
+	}
+	.our-experience-wrapper .schedule-free-consultation-data h3 {
+		font-size: 25px;
+	}
+	.work-with-us-wrapper-two .video-holder {
+		height: 350px;
+		min-height: 350px;
+	}
+	.about-cta-wrapper .section-heading h2 {
+		margin-bottom: 30px;
+	}
 }

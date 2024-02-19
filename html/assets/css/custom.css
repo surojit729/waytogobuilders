@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap");
 /*
 font-family: 'Mulish', sans-serif;
 font-family: 'Playfair Display', serif;
@@ -695,7 +695,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .hdr_menu li.current-menu-parent > a {
-	color: var(--primary-color);
+	color: #009bef;
 }
 
 .hdr_menu li.current-menu-parent li.current-menu-item a {
@@ -2589,4 +2589,184 @@ input[type="number"]::-webkit-outer-spin-button {
 .project-details-gallery-wrapper .gallery-item img {
 	width: 100%;
 	height: 100%;
+}
+.contact-banner-wrapper {
+	padding: 250px 0 130px;
+}
+.contact-banner-wrapper:before {
+	display: none;
+}
+.contact-banner-wrapper .banner-content-outer {
+	position: static;
+	transform: none;
+	padding: 0;
+}
+.contact-banner-wrapper .banner-content-outer h2 {
+	font-family: var(--playfair);
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 1.3;
+	color: var(--color-white);
+	margin-bottom: 30px;
+}
+.contact-banner-wrapper .contact-form-outer {
+	max-width: 980px;
+	margin: 100px auto 0;
+}
+.contact-banner-wrapper .contact-form-outer .input-field .form-control {
+	background-color: rgba(255, 255, 255, 0.6);
+	color: var(--color-black);
+}
+.contact-banner-wrapper .contact-form-outer .input-field .form-control:focus {
+	background-color: var(--color-white);
+}
+.contact-banner-wrapper
+	.contact-form-outer
+	.input-field
+	.form-control::-webkit-input-placeholder {
+	color: var(--color-black);
+}
+.contact-banner-wrapper
+	.contact-form-outer
+	.input-field
+	.form-control::-moz-placeholder {
+	color: var(--color-black);
+}
+.contact-banner-wrapper
+	.contact-form-outer
+	.input-field
+	.form-control:-ms-input-placeholder {
+	color: var(--color-black);
+}
+.contact-banner-wrapper
+	.contact-form-outer
+	.input-field
+	.form-control::-ms-input-placeholder {
+	color: var(--color-black);
+}
+.contact-banner-wrapper
+	.contact-form-outer
+	.input-field
+	.form-control::placeholder {
+	color: var(--color-black);
+}
+.map-card iframe {
+	width: 100%;
+	border: 0;
+	height: 940px;
+}
+.about-banner-wrapper {
+	padding: 330px 0 220px;
+}
+.about-banner-wrapper .banner-content-outer p {
+	font-size: 34px;
+}
+.way-to-go-work-wrapper .what-ww-do-pic {
+	width: 36%;
+}
+.way-to-go-work-wrapper .section-heading {
+	max-width: 740px;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item {
+	width: 50%;
+	padding: 30px;
+	padding-top: 0;
+	border-bottom: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+	position: relative;
+	counter-increment: work-counter;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:nth-child(odd) {
+	padding-left: 0;
+	padding-right: 15px;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:nth-child(even) {
+	padding-right: 0;
+	border-right: 0;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:nth-child(5),
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item::before {
+	content: counter(work-counter);
+	position: absolute;
+	top: 36px;
+	right: 15px;
+	border-radius: 100%;
+	color: #b4b4b4;
+	font-size: 21px;
+	font-weight: 800;
+	line-height: 1;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:nth-child(1)::before,
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:nth-child(2)::before {
+	top: 11px;
+}
+
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item h3 {
+	font-family: Playfair Display;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.3;
+	margin: 25px 0 15px;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item p {
+	color: #444444;
+}
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:nth-child(1) h3,
+.way-to-go-work-wrapper .way-to-go-work-list-outer .item:nth-child(2) h3 {
+	margin-top: 0;
+}
+.our-experience-wrapper .schedule-free-consultation-pic {
+	width: 45%;
+}
+.our-experience-wrapper .schedule-free-consultation-data {
+	max-width: 630px;
+}
+.our-experience-wrapper .schedule-free-consultation-data h2 {
+	font-size: 50px;
+}
+
+.our-experience-wrapper .schedule-free-consultation-data h3 {
+	font-family: var(--playfair);
+	font-size: 33px;
+	font-weight: 400;
+	line-height: 1.3;
+	margin-bottom: 20px;
+}
+.about-cta-wrapper .section-heading {
+	max-width: 1140px;
+}
+.about-cta-wrapper .section-heading h2 {
+	margin-bottom: 60px;
+}
+.wraper-error-main {
+	padding: 250px 0;
+}
+.error-main-data h1 {
+	font-family: var(--body-font);
+	font-size: 160px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: var(--color-white);
+	text-align: center;
+}
+.error-main-data p {
+	font-family: var(--playfair);
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 1.3;
+	color: var(--color-white);
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
 }
