@@ -604,4 +604,16 @@
 	.about-cta-wrapper .section-heading h2 {
 		margin-bottom: 30px;
 	}
+	.contact-banner-wrapper .banner-content-outer h2 {
+		font-size: 24px;
+	}
+	.contact-banner-wrapper .contact-form-outer {
+		margin: 40px auto 0;
+	}
+	.contact-banner-wrapper {
+		padding: 160px 0 70px;
+	}
+	.map-card iframe {
+		height: 400px;
+	}
 }
